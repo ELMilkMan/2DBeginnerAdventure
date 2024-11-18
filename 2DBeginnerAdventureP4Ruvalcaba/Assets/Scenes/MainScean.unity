@@ -319,7 +319,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 14.046132
+  orthographic size: 9.862775
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2284,23 +2284,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472968483802496636, guid: 6ebf51d93ba8f3d438043427e748348e,
         type: 3}
+      propertyPath: m_Size.x
+      value: 6.9366035
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472968483802496636, guid: 6ebf51d93ba8f3d438043427e748348e,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.07394314
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472968483802496636, guid: 6ebf51d93ba8f3d438043427e748348e,
+        type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 1.8435072
+      value: 7.1251817
       objectReference: {fileID: 0}
     - target: {fileID: 2472968483802496636, guid: 6ebf51d93ba8f3d438043427e748348e,
         type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 0.91628176
+      value: 1.0430421
       objectReference: {fileID: 0}
     - target: {fileID: 4382210996243112843, guid: 6ebf51d93ba8f3d438043427e748348e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.1001
+      value: 1.1317
       objectReference: {fileID: 0}
     - target: {fileID: 4382210996243112843, guid: 6ebf51d93ba8f3d438043427e748348e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.3
+      value: 3.2505
       objectReference: {fileID: 0}
     - target: {fileID: 4382210996243112843, guid: 6ebf51d93ba8f3d438043427e748348e,
         type: 3}
@@ -2345,12 +2355,12 @@ PrefabInstance:
     - target: {fileID: 7507235007520461203, guid: 6ebf51d93ba8f3d438043427e748348e,
         type: 3}
       propertyPath: m_Size.x
-      value: 1.8435072
+      value: 7.1251817
       objectReference: {fileID: 0}
     - target: {fileID: 7507235007520461203, guid: 6ebf51d93ba8f3d438043427e748348e,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.91628176
+      value: 1.0430421
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18687,6 +18697,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2020213386208241800, guid: 881277db8e8908a49873403084eba456,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.92980045
+      objectReference: {fileID: 0}
+    - target: {fileID: 2020213386208241800, guid: 881277db8e8908a49873403084eba456,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.46490023
+      objectReference: {fileID: 0}
     - target: {fileID: 4525271266395616946, guid: 881277db8e8908a49873403084eba456,
         type: 3}
       propertyPath: m_Name
@@ -19081,6 +19101,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4432169548495245135, guid: 854bba9bbe208b5448ccb3d164c06e14,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8237045304008373996, guid: 854bba9bbe208b5448ccb3d164c06e14,
         type: 3}
