@@ -60,9 +60,9 @@ public class EnmeyController : MonoBehaviour
             animator.SetFloat("Move x", direction);
             animator.SetFloat("Move y", 0);
             position.x = position.x + Time.deltaTime * speed * direction;
-
-
         }
+
+
         rigidbody2d.MovePosition(position);
     }
 
